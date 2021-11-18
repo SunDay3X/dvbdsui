@@ -1,0 +1,59 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SUND4Y X HUB", "Synapse")
+
+local Tab = Window:NewTab("Da Hood")
+local Section = Tab:NewSection("Is all best script. Enjoy!")
+
+Section:NewButton("Floppa", " op Fov Script!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/6Rev/scripts/main/dahood"))()
+end)
+
+Section:NewButton("Faded", " op Fov Script!", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+end)
+
+Section:NewButton("Swag Mode", "Dont open with Floppa", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
+end)
+
+-- Arsenal
+
+local Tab = Window:NewTab("ARSENAL")
+local Section = Tab:NewSection("Is COOL script. Enjoy!")
+
+Section:NewButton("Owl Hub", " op AresenL Script!", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+-- GPO
+
+local Tab = Window:NewTab("GPO")
+local Section = Tab:NewSection("Is u can get banned. Enjoy!")
+
+Section:NewButton("DF Notifitter", " op AresenL Script!", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
+end)
+
+-- BED Wars
+
+local Tab = Window:NewTab("Bed wars")
+local Section = Tab:NewSection("Is good script. Enjoy!")
+
+Section:NewButton("VAPE", " op Bedwarsw Script!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Monkey", " op Bedwarsw Script!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
+end)
+
+Section:NewButton("Crokuran", " op Bedwarsw Script!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SlaveDash/Crokuranu/main/Bedwars%20UI%20Source%20Code'))()
+end)
+
+Section:NewButton("Original", " op Bedwarsw Script!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperGamingBros4/Roblox-HAX/main/Updated_Totally_Original_Script_Hub.Lua"))()
+end)
+-- credit
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Creat by !DAYYY# 2818")
